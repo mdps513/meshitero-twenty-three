@@ -1,0 +1,35 @@
+{
+  "name": "meshitero-twenty-three",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "clean": "rm -r node_modules/ && npm cache clean",
+    "devBuild": "NODE_ENV=development webpack --display-error-details",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-cookies": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "font-awesome": "^4.7.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "normalize.css": "^7.0.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
+  }
+}
