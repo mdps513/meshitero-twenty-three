@@ -1,4 +1,4 @@
-/*!
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -9096,7 +9096,6 @@ button.close {
   clip: auto;
 }
 body {
-    padding-top: 50px;
     font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '\6E38\30B4\30B7\30C3\30AF   Medium', '\30E1\30A4\30EA\30AA', meiryo, sans-serif;
     text-align: center;
 }
@@ -9108,5 +9107,17 @@ body {
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
+}
+.container{
+  height: 600px;
+  display: table;
+}
+
+.table-item{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 500%;
+  font-family: 'Ultra', serif;
+  letter-spacing: 0.5em
 }
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXNoZWV0cy9hcHBsaWNhdGlvbi5idW5kbGUuY3NzIiwic291cmNlUm9vdCI6IiJ9*/

@@ -1,5 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
 body {
-    padding-top: 50px;
     font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
     text-align: center;
 }
@@ -11,4 +11,16 @@ body {
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
+}
+.container{
+  height: 600px;
+  display: table;
+}
+
+.table-item{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 500%;
+  font-family: 'Ultra', serif;
+  letter-spacing: 0.5em
 }

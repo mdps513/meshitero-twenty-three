@@ -1,11 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  div(data-toggle="tooltip" data-placement="top" data-html="true" title="<div class='tooltip-inner'>Webpack Environment!!!!!</div>")
-    i(class="fa fa-thumbs-o-up fa-5x" aria-hidden="true")
   div(ng-app="app" ng-cloak)
-    div(ng-controller="webpackEnvironmentCtrl" ng-init="init()")
-      input(type="text" ng-model="demo" ng-value="demo")
-      div {{ demo }}
+    div.container(ng-controller="webpackEnvironmentCtrl" ng-init="init()")
+      h1.table-item {{ count }}
